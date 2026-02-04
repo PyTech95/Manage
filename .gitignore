@@ -1,0 +1,12 @@
+# Node
+**/node_modules/
+
+# .NET
+**/bin/
+**/obj/
+
+# publish output
+**/publish/
+
+# EXE (optional)
+*.exe
