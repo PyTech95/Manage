@@ -9,8 +9,8 @@ import DeviceTable from "./components/DeviceTable";
 import DeviceModal from "./components/DeviceModal";
 import { getQueryParam } from "./components/helpers";
 
-// const API = "https://managexbackend.onrender.com";
-const API = "http://localhost:8080";
+const API = "https://managebackend.onrender.com";
+//const API = "http://localhost:8080";
 
 export default function App() {
   // ✅ new tab software page

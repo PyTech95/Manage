@@ -17,8 +17,8 @@ public class Worker : BackgroundService
     private readonly string _deviceId = Environment.MachineName;
 
     // ✅ Production backend
-    // private const string BackendBaseUrl = "https://managexbackend.onrender.com";
-    private const string BackendBaseUrl = "http://localhost:8080";
+    private const string BackendBaseUrl = "https://managebackend.onrender.com";
+    //private const string BackendBaseUrl = "http://localhost:8080";
 
     private SocketIOClient.SocketIO? _socket;
 
